@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f2e7a85f6b742cfb8f79dc6667854c, type: 3}
+  m_Name: AnimatorPresetSoSample
+  m_EditorClassIdentifier: 
+  title: "Animator\u4ED8\u4E0E"
+  tips: "\u6C4E\u7528\u7684\u306AAnimator\u3092\u4ED8\u4E0E\u3059\u308B\u305F\u3081\u306E\u30D7\u30EA\u30BB\u30C3\u30C8\nUI\u3084\u30AD\u30E3\u30E9\u30E2\u30FC\u30B7\u30E7\u30F3\u306A\u3069\u3001\u30D1\u30BF\u30FC\u30F3\u5316\u3067\u304D\u308B\u3082\u306E\u3092\u767B\u9332\u3057\u3066\u304A\u304F\u3068\n\u30BB\u30C3\u30C8\u30A2\u30C3\u30D7\u304C\u7C21\u5358\u306B\u306A\u308A\u307E\u3059\u3002"
+  titleColor: {r: 1, g: 0.8066038, b: 0.8066038, a: 1}
+  settings:
+  - labelName: "\u6C4E\u7528\u9077\u79FBAnimator"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: "\u57FA\u672C\u7684\u306A\u753B\u9762\u9077\u79FB\u7528\u306EAnimator\nin,out\u306E\u307F"
+    stateNames:
+    - default
+    - in
+    - out
+    clips:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    entryStateIndex: 0
+  - labelName: "\u6C4E\u7528\u30EB\u30FC\u30D7\u4ED8\u304D\u9077\u79FBAnimator"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: "\u6C4E\u7528\u9077\u79FBAnimator\u306Bloop\u3092\u8FFD\u52A0"
+    stateNames:
+    - default
+    - in
+    - loop
+    - out
+    clips:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    entryStateIndex: 0
+  - labelName: "\u56FA\u6709\u30EB\u30FC\u30D7Animator"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: "loop\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u306E\u307F\u8A2D\u5B9A\u3059\u308B"
+    stateNames:
+    - loop
+    clips:
+    - {fileID: 0}
+    entryStateIndex: 0

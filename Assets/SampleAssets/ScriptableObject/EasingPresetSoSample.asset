@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090de4015dc084539809e83a62453904, type: 3}
+  m_Name: EasingPresetSoSample
+  m_EditorClassIdentifier: 
+  title: "\u30A4\u30FC\u30B8\u30F3\u30B0\u30D7\u30EA\u30BB\u30C3\u30C8"
+  tips: "\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u30AB\u30FC\u30D6\u306E\u30D7\u30EA\u30BB\u30C3\u30C8\nAnimationWindow\u3067\u306E\u5229\u7528\u3092\u60F3\u5B9A\u3057\u3066\u3044\u307E\u3059\u3002\n\n\u30A4\u30FC\u30B8\u30F3\u30B0\u8A2D\u5B9A\u3057\u305F\u3044\u30AD\u30FC\u30D5\u30EC\u30FC\u30E0\u3092\u9078\u629E\u3057\u305F\u72B6\u614B\u3067\n\u30DC\u30BF\u30F3\u3092\u62BC\u3059\u3053\u3068\u3067\u30A4\u30FC\u30B8\u30F3\u30B0\u304C\u53CD\u6620\u3055\u308C\u307E\u3059\u3002"
+  titleColor: {r: 0.8254717, g: 1, b: 1, a: 1}
+  settings:
+  - labelName: "EaseIn\u5F31"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: 
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - labelName: "EaseIn\u5F37"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: 
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -0.008933774
+        outSlope: -0.031411763
+        tangentMode: 1
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.9254376
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 9.139652
+        outSlope: 175.69312
+        tangentMode: 1
+        weightedMode: 1
+        inWeight: 0.06980473
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - labelName: "EaseInOut\u5F31"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: 
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - labelName: "EaseInOut\u5F37"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: 
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.022884188
+        outSlope: 0.022884188
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.8193431
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.03051222
+        outSlope: 0.03051222
+        tangentMode: 0
+        weightedMode: 1
+        inWeight: 0.8193431
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - labelName: "EaseOut\u5F31"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: 
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - labelName: "EaseOut\u5F37"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: 
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0018234253
+        value: 0
+        inSlope: 16.404606
+        outSlope: 16.404606
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.034607038
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.040373307
+        outSlope: 0.040373307
+        tangentMode: 0
+        weightedMode: 1
+        inWeight: 0.92714155
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - labelName: "\u30D0\u30A6\u30F3\u30C9"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: 
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.019951457
+        outSlope: 0.019951457
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.939781
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: -1.8311464
+        outSlope: -1.8311464
+        tangentMode: 0
+        weightedMode: 1
+        inWeight: 0.22683656
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - labelName: "\u7B49\u901F"
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
+    tips: 
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

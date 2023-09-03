@@ -1,0 +1,12 @@
+{
+  "name": "com.haw2fregel.creative-editor",
+  "displayName": "CreativeEditor",
+  "version": "1.0.1",
+  "unity": "2019.4",
+  "license": "The Unlicense",
+  "dependencies": {
+  },
+  "author": {
+    "name": "haw2fregel"
+  }
+}
